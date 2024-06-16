@@ -1,16 +1,18 @@
 import React from "react"
 import "../Css/Header.css"
+import row from "bootstrap"
 
 
 
 export default function Header (){
     return(
        
-           <div className="Rect1"> 
-            <div className="searchBox">
-                <span className="searchPlaceHolder">Search for your favorite groups in ATG</span>
+           <div sm md={6} > <i class="bi bi-search"></i>
+            <input className="searchBox" placeholder="Search for your favorite groups in ATG" />
+           
+           
                 
-            </div>
+         
            </div>
 
     )

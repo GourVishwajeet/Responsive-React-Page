@@ -5,7 +5,7 @@ width: 1440px;
 height: 72px;
 left: 0px;
 top: 0px;
-background-color: aquamarine;
+
 
 }
 .searchBox{
@@ -15,7 +15,10 @@ height: 42px;
 left: 540px;
 top: 16px;
 background: #F2F2F2;
+color: #5C5C5C;
+opacity: 75%;
 
+border: none;
 border-radius: 50px;
 
 }
